@@ -36,6 +36,7 @@ class Component(ComponentBase):
         PARAMS = Configuration(**self.configuration.parameters)
 
 
+
         # Access parameters in configuration
         if PARAMS.print_hello:
             logging.info("Hello World")
