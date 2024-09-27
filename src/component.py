@@ -33,10 +33,11 @@ class Component(ComponentBase):
 
         # ####### EXAMPLE TO REMOVE
         # check for missing configuration parameters
-        params = Configuration(**self.configuration.parameters)
+        PARAMS = Configuration(**self.configuration.parameters)
+
 
         # Access parameters in configuration
-        if params.print_hello:
+        if PARAMS.print_hello:
             logging.info("Hello World")
 
         # get input table definitions
