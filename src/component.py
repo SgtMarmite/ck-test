@@ -85,7 +85,6 @@ class Component(ComponentBase):
 
         # ####### EXAMPLE TO REMOVE END
 
-
 """
         Main entrypoint
 """
